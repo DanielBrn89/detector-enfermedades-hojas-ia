@@ -2,11 +2,23 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.venv/
+
+# Entorno
 venv/
 .env
-.ipynb_checkpoints/
+
+# Modelos
+models/
+
+# Datos
+data/
+!data/sample_images/
+
+# Temporales
+temp.png
+
+# Sistema
 .DS_Store
-models/*.pth
-data/raw/
-data/processed/
+
+# VS Code
+.vscode/
